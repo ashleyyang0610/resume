@@ -1,6 +1,7 @@
 # Readme
 
 Ashley Yang's online resume.
+[Online Website](https://ashleyyang0610.github.io/Ashley-Yang/)
 
 ## Getting Started
 
@@ -8,7 +9,7 @@ Ashley Yang's online resume.
 ```
 git clone https://github.com/ashleyyang0610/resume.git
 ```
-2. Installing 
+2. Installing
 ```
 npm install
 ```
