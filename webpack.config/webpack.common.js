@@ -34,7 +34,6 @@ module.exports = {
     ],
     output: {
         filename: '[name].bundle.js?[hash]',
-        publicPath: '/',
         path: path.resolve(__dirname, '../dist')
     },
     resolve: {
