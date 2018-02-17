@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Harvest-Barn';
+    src: url('assets/fonts/harvest-barn.ttf') format("truetype");
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #222;
+    font-family: Verdana, Calibri, Arial;
+    font-size: 14px;
+    line-height: 20px;
+}

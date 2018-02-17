@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from 'containers/main';
+import './common.scss';
 
 ReactDOM.render((
-    <p>test</p>
+    <Main />
 ), document.getElementById('app'));
