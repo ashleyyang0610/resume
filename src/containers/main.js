@@ -6,13 +6,13 @@ import Experience from './experience';
 import Footer from './footer';
 
 const Main = () => {
-    return (<main>
+    return (<section>
         <Header />
         <About />
         <Ability />
         <Experience />
         <Footer />
-    </main>);
+    </section>);
 };
 
 export default Main;

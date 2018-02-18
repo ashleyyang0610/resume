@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Header = () => {
-    return <header>Header</header>;
+    return (<header>
+        <h1 className="center-aligned">Ashley Yang&apos;s Résumé</h1>
+    </header>);
 };
 
 export default Header;

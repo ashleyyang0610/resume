@@ -1,0 +1,25 @@
+.percentage-graph {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+@for $i from 1 through 100 {
+    .percent-#{$i} {
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: block;
+            content: "#{$i}";
+            color: #fff;
+            font-size: 8px;
+            font-weight: bold;
+            width: calc(100% * (#{$i}/100));
+            height: 100%;
+            background-color: rgba(254, 116, 101, 1);
+        }
+    }
+}

@@ -111,7 +111,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(ttf|eot|svg|ico|png|jpg|gif|woff|woff2)$/,
+                test: /\.(ttf|otf|eot|svg|ico|png|jpg|gif|woff|woff2)$/,
                 use: [
                     {
                         loader: 'url-loader',
