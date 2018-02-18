@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
-    return (<footer>
+    return (<footer id="contact">
         <h2 className="sub-header">Contact Me</h2>
         <hr />
         <div className="center-aligned">

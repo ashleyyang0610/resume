@@ -3,7 +3,7 @@ import ability from 'config/ability';
 import PercentageGraph from 'components/percentageGraph/percentageGraph';
 
 const Ability = () => {
-    return (<article>
+    return (<article id="ability">
         <h2 className="sub-header">Ability</h2>
         <hr />
         {

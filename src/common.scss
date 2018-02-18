@@ -22,18 +22,25 @@ body {
 }
 
 header, footer, article {
-    padding: 60px 200px;
+    padding: 60px 200px 90px 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: rgba(69, 80, 118, 1);
     font-family: "Lucida Grande", Calibri;
-    margin: 0;
-    padding: 15px 0;
 }
 
 hr {
     opacity: 0.3;
+}
+
+.pull-right {
+    float: right;
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }
 
 .center-aligned {
@@ -62,6 +69,7 @@ hr {
     & > li {
         display: inline-block;
         width: 50%;
+        margin-bottom: 8px;
         &:nth-child(odd) {
             padding-right: 10px;
         }
@@ -140,10 +148,32 @@ article {
     .sub-header {
         color: rgba(73, 125, 178, 1);
     }
+    .label-header {
+        margin-bottom: 0px;
+    }
     &:nth-child(odd) {
         background-color: rgba(253, 242, 228, 1);
     }
     &:nth-child(even) {
         background-color: rgba(255, 255, 255, 1);
+    }
+}
+
+#about {
+    & > section {
+        display: inline-block;
+        vertical-align: top;
+        &.about-picture {
+            width: 300px;
+            height: 500px;
+            background-image: url("assets/images/ashley_yang.jpg");
+            background-size: auto 100%;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        &.about-info {
+            width: calc(100% - 300px);
+            padding-left: 20px;
+        }
     }
 }

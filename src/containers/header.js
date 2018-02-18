@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => {
-    return (<header>
+    return (<header id="home">
         <h1 className="center-aligned">Ashley Yang&apos;s Résumé</h1>
     </header>);
 };
