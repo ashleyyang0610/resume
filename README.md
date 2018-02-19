@@ -22,5 +22,4 @@ npm start
 ## Built With
 
 * [React](https://reactjs.org/)
-* [React-Router](https://reacttraining.com/react-router/)
 * [Webpack](https://webpack.js.org/)
