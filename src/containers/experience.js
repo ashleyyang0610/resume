@@ -117,8 +117,14 @@ const Experience = () => {
                         <h5>(2008 - 2012)</h5>
                     </section>
                     <section className="label-content">
-                        <p>Engineer’s Degree</p>
-                        <p>Major in Electrical, Electronics and Communications Engineering</p>
+                        <p><strong>Degree</strong></p>
+                        <ul>
+                            <li>Engineer’s Degree</li>
+                        </ul>
+                        <p><strong>Major</strong></p>
+                        <ul>
+                            <li>Major in Electrical, Electronics and Communications Engineering</li>
+                        </ul>
                     </section>
                 </li>
             </ul>

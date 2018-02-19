@@ -15,6 +15,7 @@ body {
     font-family: Verdana, Calibri, Arial;
     font-size: 14px;
     line-height: 1.5;
+    min-width: 480px;
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 }
 
 header, footer, article {
-    padding: 60px 200px 90px 200px;
+    padding: 60px 15vw 90px 15vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -167,34 +168,38 @@ article {
     & > section {
         display: inline-block;
         vertical-align: top;
-        &.about-picture {
-            width: 300px;
-            height: 500px;
-            background-image: url("assets/images/ashley_yang.jpg");
-            background-size: auto 100%;
-            background-position: right;
-            background-repeat: no-repeat;
-        }
-        &.about-info {
-            width: calc(100% - 300px);
-            padding-left: 20px;
+    }
+    .about-picture {
+        width: 300px;
+        height: 500px;
+        background-image: url("assets/images/ashley_yang.jpg");
+        background-size: auto 100%;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .about-info {
+        width: calc(100% - 300px);
+        padding-left: 20px;
+        li {
+            text-align: justify;
+            text-justify: inter-word;
         }
     }
 }
 
 #experience {
+    .label-title {
+        vertical-align: top;
+        width: 30%;
+    }
+    .label-content {
+        vertical-align: top;
+        width: 70%;
+    }
     & > section {
         & > ul {
             & > li {
                 margin-bottom: 16px;
-                .label-title {
-                    vertical-align: top;
-                    width: 30%;
-                }
-                .label-content {
-                    vertical-align: top;
-                    width: 70%;
-                }
                 ul {
                     list-style: square;
                     padding-left: 16px;
@@ -210,5 +215,65 @@ article {
     }
     h5 {
         color: rgba(135, 135, 135, 1);
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+    header, footer, article {
+        padding: 60px 10vw 90px 10vw;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    header, footer, article {
+        padding: 60px 5vw 90px 5vw;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 959px) {
+
+
+}
+
+@media screen and (max-width: 799px) {
+    #about {
+        .about-picture {
+            margin: 0 auto;
+            display: block;
+        }
+        .about-info {
+            width: 100%;
+            padding: 0px;
+        }
+    }
+    #ability {
+        .list-inline {
+            & > li {
+                display: block;
+                width: 100%;
+                padding: 0px;
+            }
+        }
+    }
+    #experience {
+        .label-title, .label-content {
+            display: block;
+            width: 100%;
+        }
+        .label-title {
+            background: linear-gradient(90deg, #f1f1f1 40%, white 80%);
+            padding: 4px;
+            margin: 16px 0 4px 0;
+        }
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #ability {
+        .label-title, .label-content {
+            display: block;
+            width: 100%;
+        }
     }
 }
