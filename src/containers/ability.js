@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 import ability from 'config/ability';
 import PercentageGraph from 'components/percentageGraph/percentageGraph';
 
@@ -12,7 +13,7 @@ const Ability = () => {
                     <h3>{eachAbility.type}</h3>
                     <ul className="list-unstyled list-inline">
                         {
-                            eachAbility.mapping.map((eachMapping, j) => {
+                            _.sortBy(eachAbility.mapping, ['score', 'type']).slice(0).reverse().map((eachMapping, j) => {
                                 return (<li key={j}>
                                     <span className="label-title">{`${eachMapping.type} (${eachMapping.desciption})`}</span>
                                     <PercentageGraph

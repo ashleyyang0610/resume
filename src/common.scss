@@ -69,7 +69,7 @@ hr {
     & > li {
         display: inline-block;
         width: 50%;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
         &:nth-child(odd) {
             padding-right: 10px;
         }
@@ -81,10 +81,12 @@ hr {
 
 .label- {
     &title {
+        vertical-align: middle;
         display: inline-block;
         width: 55%;
     }
     &content {
+        vertical-align: middle;
         display: inline-block;
         width: 45%;
     }
@@ -92,12 +94,24 @@ hr {
 
 .label-icon {
     margin-right: 10px;
-    &:before {
-        vertical-align: sub;
+}
+
+article {
+    .sub-header {
+        color: rgba(73, 125, 178, 1);
+    }
+    .label-header {
+        margin-bottom: 0px;
+    }
+    &:nth-child(odd) {
+        background-color: rgba(253, 242, 228, 1);
+    }
+    &:nth-child(even) {
+        background-color: rgba(255, 255, 255, 1);
     }
 }
 
-header {
+#home {
     position: relative;
     height: 100vh;
     background: radial-gradient(rgba(136, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 70%);
@@ -127,7 +141,7 @@ header {
     }
 }
 
-footer {
+#contact {
     min-height: 60vh;
     background-color: rgba(77, 77, 77, 1);
     ul {
@@ -142,20 +156,10 @@ footer {
             }
         }
     }
-}
-
-article {
-    .sub-header {
-        color: rgba(73, 125, 178, 1);
-    }
-    .label-header {
-        margin-bottom: 0px;
-    }
-    &:nth-child(odd) {
-        background-color: rgba(253, 242, 228, 1);
-    }
-    &:nth-child(even) {
-        background-color: rgba(255, 255, 255, 1);
+    .label-icon {
+        &:before {
+            vertical-align: sub;
+        }
     }
 }
 
@@ -175,5 +179,36 @@ article {
             width: calc(100% - 300px);
             padding-left: 20px;
         }
+    }
+}
+
+#experience {
+    & > section {
+        & > ul {
+            & > li {
+                margin-bottom: 16px;
+                .label-title {
+                    vertical-align: top;
+                    width: 30%;
+                }
+                .label-content {
+                    vertical-align: top;
+                    width: 70%;
+                }
+                ul {
+                    list-style: square;
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+    h4, h5, p {
+        margin: 0px;
+    }
+    h4 {
+        color: rgba(254, 116, 101, 1);
+    }
+    h5 {
+        color: rgba(135, 135, 135, 1);
     }
 }

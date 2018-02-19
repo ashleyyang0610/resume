@@ -35,7 +35,7 @@ const frontEndSkill = [
         score: 80
     },
     {
-        type: 'React Router',
+        type: 'React-Router',
         desciption: '1+ years',
         score: 85
     },
