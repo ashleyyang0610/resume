@@ -4,7 +4,7 @@ Ashley Yang's online resume.
 [Online Website](https://ashleyyang0610.github.io/Ashley-Yang/)
 
 ## Requirements
-* Suuported Browser: Firefox, Chrome, Safari, IE11, Edge.
+* Suuported Browser: Chrome, Firefox, Safari, IE11, Edge.
 
 * Recommended screen size: 1280 × 960
 
