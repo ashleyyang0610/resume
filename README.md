@@ -28,3 +28,5 @@ npm start
 
 * [React](https://reactjs.org/)
 * [Webpack](https://webpack.js.org/)
+* [normalize.css](https://necolas.github.io/normalize.css/)
+* [ESLint](https://eslint.org/)
