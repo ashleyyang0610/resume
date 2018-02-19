@@ -15,10 +15,12 @@ const About = () => {
                     I build the project up individually.
                     Further, I also have to co-work with foreign colleagues and be in charge of front-end technique consulting job.
                     I&apos;m an extremely persistent and flexible person.
-                    Often raise new ideas for project and take the initiative in filling the gap from orignal structure.
-                    Otherwise, I also have lots experience in lagacy code maintenance and refinement.
+                    Often raise new ideas for projects and take the initiative in filling the deficiency of orignal architectureㄋ.
+                    Otherwise, I also have lots experiences in lagacy code maintenance and refinement.
                     I&apos;m adaptable to handle any situation.
-                    I&apos;m a young girl but I always do my best and realize what I&apos;m lack of.
+                    I&apos;m a young girl but I always try my best.
+                    I&apos;m glad to learn front-end new knowledge to cover my shortage in the job.
+                    The process in solving challenges make me feel fullfeeled and satisfied.
                 </li>
                 <li>
                     <h3 className="label-header">Name</h3>Ashley Yang
