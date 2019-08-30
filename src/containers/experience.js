@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Experience = () => {
-    return (<article id="experience">
+const Experience = () => (
+    <article id="experience">
         <h2 className="sub-header">Experience</h2>
         <hr />
         <section>
@@ -11,12 +11,14 @@ const Experience = () => {
                     <section className="label-title">
                         <h4>Trend Micro</h4>
                         <p>Senior Frontend Developer</p>
-                        <h5>(Jul 2016 – Present)</h5>
+                        <h5>3y2m (Jul 2016 – Present)</h5>
                     </section>
                     <section className="label-content">
                         <p><strong>Responsibilities</strong></p>
                         <ul>
                             <li>Front-end development.</li>
+                            <li>Front-end daily work improvement.</li>
+                            <li>Provide innovation ideas.</li>
                             <li>Bundle and build process.</li>
                             <li>Mobile web UI development.</li>
                             <li>Code refinement.</li>
@@ -30,6 +32,12 @@ const Experience = () => {
                         </ul>
                         <p><strong>Achievements</strong></p>
                         <ul>
+                            <li>
+                                Participate cross team co-operation as a front-end developer for TrendMicro 30th anniversary.
+                            </li>
+                            <li>
+                                Raise innovation ideas and demonstrate the prototype for the project.
+                            </li>
                             <li>
                                 Responsible for transnational cooperated project individually.
                                 Co-work with foreign UI designers and foreign developers.
@@ -54,7 +62,7 @@ const Experience = () => {
                     <section className="label-title">
                         <h4>Advantech Co., Ltd.</h4>
                         <p>Software Engineer</p>
-                        <h5>(Jun 2015 – Jul 2016)</h5>
+                        <h5>1y2m (Jun 2015 – Jul 2016)</h5>
                     </section>
                     <section className="label-content">
                         <p><strong>Responsibilities</strong></p>
@@ -85,7 +93,7 @@ const Experience = () => {
                     <section className="label-title">
                         <h4>Quanta Computer Inc.</h4>
                         <p>Software Engineer</p>
-                        <h5>(Jul 2012 – May 2015)</h5>
+                        <h5>2y11m (Jul 2012 – May 2015)</h5>
                     </section>
                     <section className="label-content">
                         <p><strong>Responsibilities</strong></p>
@@ -129,7 +137,7 @@ const Experience = () => {
                 </li>
             </ul>
         </section>
-    </article>);
-};
+    </article>
+);
 
 export default Experience;

@@ -69,7 +69,7 @@ const frontEndSkill = [
         desciption: '2+ years',
         score: 80
     }
-]
+];
 
 const language = [
     {
@@ -82,7 +82,7 @@ const language = [
         desciption: 'Professional working proficiency',
         score: 80
     }
-]
+];
 
 const ability = [
     {
@@ -93,6 +93,6 @@ const ability = [
         type: 'Language',
         mapping: language
     }
-]
+];
 
 export default ability;

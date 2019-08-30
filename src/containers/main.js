@@ -5,14 +5,14 @@ import Experience from './experience';
 import Footer from './footer';
 import Header from './header';
 
-const Main = () => {
-    return (<section>
+const Main = () => (
+    <section>
         <Header />
         <About />
         <Ability />
         <Experience />
         <Footer />
-    </section>);
-};
+    </section>
+);
 
 export default Main;

@@ -3,8 +3,8 @@ import _ from 'lodash';
 import ability from 'config/ability';
 import PercentageGraph from 'components/percentageGraph/percentageGraph';
 
-const Ability = () => {
-    return (<article id="ability">
+const Ability = () => (
+    <article id="ability">
         <h2 className="sub-header">Ability</h2>
         <hr />
         {
@@ -27,7 +27,7 @@ const Ability = () => {
                 </section>);
             })
         }
-    </article>);
-};
+    </article>
+);
 
 export default Ability;
