@@ -1,42 +1,42 @@
 const frontEndSkill = [
     {
         type: 'JavaScript',
-        desciption: '4+ years',
+        desciption: '5+ years',
         score: 90
     },
     {
         type: 'CSS',
-        desciption: '4+ years',
+        desciption: '5+ years',
         score: 90
     },
     {
         type: 'ReactJS',
-        desciption: '2+ years',
+        desciption: '3+ years',
         score: 95
     },
     {
         type: 'SASS',
-        desciption: '2+ years',
+        desciption: '3+ years',
         score: 80
     },
     {
         type: 'HTML',
-        desciption: '4+ years',
+        desciption: '5+ years',
         score: 90
     },
     {
         type: 'Redux',
-        desciption: '1+ years',
+        desciption: '2+ years',
         score: 90
     },
     {
         type: 'Redux-Observable',
-        desciption: '1+ years',
+        desciption: '2+ years',
         score: 80
     },
     {
         type: 'React-Router',
-        desciption: '1+ years',
+        desciption: '2+ years',
         score: 85
     },
     {
@@ -46,17 +46,17 @@ const frontEndSkill = [
     },
     {
         type: 'i18next',
-        desciption: '3+ years',
+        desciption: '4+ years',
         score: 80
     },
     {
         type: 'Jest',
-        desciption: '1+ years',
-        score: 60
+        desciption: '2+ years',
+        score: 80
     },
     {
         type: 'Webpack',
-        desciption: '2+ years',
+        desciption: '3+ years',
         score: 90
     },
     {
