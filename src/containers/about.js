@@ -9,9 +9,9 @@ const About = () => (
             <ul className="list-unstyled">
                 <li>
                     <h3 className="label-header">About Me</h3>
-                    I&apos;m a front-end developer with over 4 years experience in web development.
-                    I have worked with ReactJS for at least 2 years.
-                    In past 2 years, my main task is participating in a new project independently.
+                    I&apos;m a front-end developer with over 6 years experience in web development.
+                    I have worked with ReactJS for at least 3 years.
+                    In past 3 years, my main task is participating in a new project independently.
                     I build the project up individually.
                     Further, I also have to co-work with foreign colleagues and be in charge of front-end technique consulting job.
                     I&apos;m an extremely persistent and flexible person.
